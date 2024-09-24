@@ -18,8 +18,8 @@ const projectData = [
       'Vercel',
       'Responsive Design',
     ],
-    link: [''],
-    code: [''],
+    link: ['https://sb-portfolio-fawn.vercel.app/'],
+    code: ['https://github.com/DevSB4/Portfolio'],
   },
   {
     title: 'Exposome Insights.',
