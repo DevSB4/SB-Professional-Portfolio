@@ -18,8 +18,8 @@ const projectData = [
       'Vercel',
       'Responsive Design',
     ],
-    link: ['https://sb-portfolio-fawn.vercel.app/'],
-    code: ['https://github.com/DevSB4/Portfolio'],
+    link: ['https://sb-professional-portfolio.vercel.app/'],
+    code: ['https://github.com/DevSB4/SB-Professional-Portfolio'],
   },
   {
     title: 'Exposome Insights.',
@@ -66,9 +66,7 @@ const Projects = () => {
   return (
     <div className='flex flex-col gap-4'>
       {/* Accessible heading for screen readers and keyboard navigation */}
-      <h1 className='text-2xl'>
-        Projects
-      </h1>
+      <h1 className='text-2xl'>Projects</h1>
 
       {/* Grid layout to display the projects responsively */}
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
