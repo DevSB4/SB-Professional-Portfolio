@@ -1,4 +1,4 @@
-# 🌐 Professional Portfolio
+# 🌐 Professional Portfolio.
 
 A modern, responsive web application built with **React**, **Vite**, and **TailwindCSS**, showcasing professional work and skills. This project utilizes advanced libraries for form validation, animations, UI components, and routing, providing a solid foundation for a scalable and high-performance web app.
 
