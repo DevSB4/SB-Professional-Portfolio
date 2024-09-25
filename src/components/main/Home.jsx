@@ -10,7 +10,7 @@ import ScrollToTopButton from '@/hooks/scroll-to-top-button';
 
 const Home = () => {
   return (
-    <Card className='relative rounded-lg m-10 border text-card-foreground border-[#d8dde6] dark:border-[#272727] bg-background dark:bg-[#191919] py-8 px-4 mx-auto max-w-screen-xl w-11/12 lg:py-7 lg:px-12 overflow-hidden'>
+    <Card className='relative rounded-lg border text-card-foreground border-[#d8dde6] dark:border-[#272727] bg-background dark:bg-[#191919] py-8 px-4 my-5 lg:my-8 mx-auto max-w-screen-xl w-11/12 lg:py-7 lg:px-12 overflow-hidden'>
       <ScrollToTopButton />
       <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start '>
         <Intro />

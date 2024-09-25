@@ -53,30 +53,55 @@ const WorkExperience = () => {
   return (
     <>
       <div className='flex flex-col gap-4'>
+        {/* Main heading: Focusable for keyboard navigation */}
         <h1 tabIndex='0' className='text-2xl font-normal'>
           Work Experience
         </h1>
-        <ol className='relative border-s border-gray-200 dark:border-[#3a3a3a]'>
+
+        {/* Ordered list for timeline items with proper border color for light/dark themes */}
+        <ol
+          className='relative border-s border-gray-200 dark:border-[#3a3a3a]'
+          aria-label='Work Experience Timeline'
+        >
           {workExperienceData?.map((item, index) => (
             <li key={index} className='text-base mb-10 ms-4'>
-              <div className='absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#3a3a3a]'></div>
-              <time className='mb-1 text-sm leading-none text-gray-400 dark:text-[#888888]'>
+              {/* Circular indicator for timeline */}
+              <div
+                className='absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#3a3a3a]'
+                aria-hidden='true' // Hidden from screen readers, purely decorative
+              ></div>
+
+              {/* Time period of the job */}
+              <time
+                className='mb-1 text-sm leading-none text-gray-400 dark:text-[#888888]'
+                aria-label={`From ${item.startDate} to ${item.endDate}`}
+              >
                 {item.startDate} - {item.endDate}
               </time>
-              <h3 className='text-lg font-medium'>
+
+              {/* Job title and company name */}
+              <h3
+                className='text-lg font-medium'
+                aria-label={`Job title: ${item.jobTitle}, at ${item.companyName}`}
+              >
                 {item.jobTitle} | {item.companyName}
               </h3>
-              <p className='mb-2'>{item.description}</p>
-              <ul className='list-disc ml-4'>
-                <li>
-                  <p className='mb-4 text-base'>
-                    {item.responsibilities.map((item, index) => (
-                      <li className='mb-1' key={index}>
-                        {item}
-                      </li>
-                    ))}
-                  </p>
-                </li>
+
+              {/* Job description */}
+              <p
+                className='mb-2'
+                aria-label={`Job description: ${item.description}`}
+              >
+                {item.description}
+              </p>
+
+              {/* List of job responsibilities */}
+              <ul className='list-disc ml-4' aria-label='Job responsibilities'>
+                {item.responsibilities.map((responsibility, index) => (
+                  <li className='mb-1' key={index}>
+                    {responsibility}
+                  </li>
+                ))}
               </ul>
             </li>
           ))}
