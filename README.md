@@ -51,13 +51,13 @@ A modern, responsive web application built with **React**, **Vite**, and **Tailw
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/DevSB4/SB-Professional-Portfolio.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd your-repo-name
+   cd SB-Professional-Portfolio
    ```
 
 3. Install dependencies:
