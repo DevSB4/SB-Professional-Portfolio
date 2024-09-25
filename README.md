@@ -48,49 +48,37 @@ A modern, responsive web application built with **React**, **Vite**, and **Tailw
 1. Clone the repository:
 
    ```
-
    git clone https://github.com/yourusername/your-repo-name.git
-
    ```
 
 2. Navigate to the project directory:
 
    ```
-
    cd your-repo-name
-
    ```
 
 3. Install dependencies:
 
    ```
-
    npm install
-
    ```
 
    or
 
    ```
-
    yarn install
-
    ```
 
 4. Start the development server:
 
    ```
-
    npm run dev
-
    ```
 
    or
 
    ```
-
    yarn dev
-
    ```
 
 ### 📜 Available Scripts
