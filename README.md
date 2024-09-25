@@ -2,6 +2,8 @@
 
 A modern, responsive web application built with **React**, **Vite**, and **TailwindCSS**, showcasing professional work and skills. This project utilizes advanced libraries for form validation, animations, UI components, and routing, providing a solid foundation for a scalable and high-performance web app.
 
+[https://sb-professional-portfolio.vercel.app](https://sb-professional-portfolio.vercel.app)
+
 ![Project Screenshot](https://github.com/DevSB4/SB-Professional-Portfolio/blob/main/public/professional-portfolio-preview.png?raw=true)
 
 ## 🚀 Features
@@ -25,7 +27,6 @@ A modern, responsive web application built with **React**, **Vite**, and **Tailw
 - **Build Tool**: Vite (v5.4.1)
 - **Styling**: TailwindCSS (v3.4.10)
 - **Animations**: Framer Motion (v11.5.4)
-- **Form Handling**: React Hook Form (v7.53.0) + Zod (v3.23.8)
 - **UI Components**: Radix UI
 - **Routing**: React Router DOM (v6.26.1)
 
@@ -34,11 +35,9 @@ A modern, responsive web application built with **React**, **Vite**, and **Tailw
 | Dependency                   | Version | Purpose                     |
 | ---------------------------- | ------- | --------------------------- |
 | @radix-ui/react-alert-dialog | ^1.1.1  | Accessible alert dialogs    |
-| react-hook-form              | ^7.53.0 | Efficient form handling     |
 | framer-motion                | ^11.5.4 | Smooth animations           |
 | react-router-dom             | ^6.26.1 | Client-side routing         |
 | tailwindcss                  | ^3.4.10 | Utility-first CSS framework |
-| zod                          | ^3.23.8 | Type-safe schema validation |
 
 ## ⚡ Quick Start
 
