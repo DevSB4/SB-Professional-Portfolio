@@ -8,11 +8,16 @@ A modern, responsive web application built with **React**, **Vite**, and **Tailw
 
 - ⚡ **Blazing-fast development** powered by Vite
 - 📱 **Responsive design** using TailwindCSS
-- ♿ **Accessibility-first approach** with Radix UI components and best practices
+- ♿ **Accessibility-first approach** with the following features:
+
+  - **Semantic HTML**: Proper use of semantic HTML elements (like headings, lists, and buttons) to enhance screen reader experiences.
+  - **Keyboard Navigation**: All interactive elements are accessible via keyboard navigation. Users can navigate through the application using the `Tab` key and activate buttons with the `Enter` or `Space` key.
+  - **ARIA Attributes**: Implementation of ARIA roles and attributes to provide additional context to assistive technologies:
+    - `aria-live` for dynamic content updates to inform screen readers of changes.
+    - `aria-label` for descriptive labels on buttons and interactive elements.
+
 - 🎨 **Smooth animations** with Framer Motion
-- 🛠️ **Robust form handling** with React Hook Form & Zod validation
 - 🔗 **Seamless client-side routing** with React Router DOM
-- ✅ **Consistent code quality** enforced via ESLint
 
 ## 🛠️ Tech Stack
 
@@ -23,7 +28,6 @@ A modern, responsive web application built with **React**, **Vite**, and **Tailw
 - **Form Handling**: React Hook Form (v7.53.0) + Zod (v3.23.8)
 - **UI Components**: Radix UI
 - **Routing**: React Router DOM (v6.26.1)
-- **Code Quality**: ESLint
 
 ## 📂 Key Dependencies
 
@@ -94,10 +98,13 @@ A modern, responsive web application built with **React**, **Vite**, and **Tailw
 
 This project prioritizes accessibility to ensure a better user experience for all users, including those with disabilities. The following practices and tools have been integrated:
 
-- **Semantic HTML**: Ensuring proper use of headings, landmarks, and HTML elements for assistive technologies.
-- **ARIA**: Added ARIA attributes to improve the accessibility of interactive components.
-- **Keyboard Navigation**: Ensured the application is fully navigable using the keyboard.
-- **Color Contrast**: Used TailwindCSS to ensure sufficient contrast for better readability.
+### Resources
+
+For more information on web accessibility, consider checking out the following resources:
+
+- [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG21/quickref/)
+- [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/)
+- [WebAIM's Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
 ## 📈 Performance
 
